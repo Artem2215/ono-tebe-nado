@@ -1,9 +1,8 @@
 /* место для вашего кода */
-.header {
+header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  min-height: 109px;
-  width: 1340px;
+  min-width: 1340px;
   margin: 92px 50px;
   font-size: 18px;
 }
@@ -42,8 +41,8 @@
 }
 
 .feetback_items {
-  text-underline-offset: 4px;
   padding-top: 5px;
+  text-underline-offset: 4px;
   line-height: 24px;
 }
 
@@ -55,10 +54,16 @@ ul {
   font-style: normal;
 }
 
+main {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
 .cover {
   z-index: -2;
-  min-width: 1440px;
-  min-height: 757px;
+  width: 1440px;
   background-image: url(../images/cover.jpg);
   background-size: 100% auto;
   background-position: center;
@@ -67,8 +72,7 @@ ul {
 .overlay {
   z-index: -1;
   background-color: rgb(0, 0, 0, 0.6);
-  min-width: 1440px;
-  min-height: 757px;
+  width: 1440px;
 }
 
 .cover_text {
@@ -119,7 +123,6 @@ ul {
 .subline {
   display: flex;
   align-items: center;
-  min-height: 52px;
   margin-top: 135px;
   margin-left: 372px;
 }
@@ -136,13 +139,13 @@ ul {
 }
 
 .subline_title_button {
+  text-align: center;
   margin-left: 80px;
-  font-size: 22px;
   padding: 12px 32px;
+  color: #fff;
+  font-size: 22px;
   background: transparent;
   border: 1px solid;
-  color: #fff;
-  text-align: center;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -151,14 +154,13 @@ ul {
 }
 
 .lots {
-  margin: 180px 181px 50px 50px;
+  margin: 180px 0 50px 50px;
   min-width: 1340px;
-  min-height: 579px;
 }
 
 .section_title {
   display: flex;
-  margin-left: 40px;
+  padding-left: 40px;
   color: #000;
   font-size: 40px;
   font-style: normal;
@@ -179,7 +181,6 @@ ul {
   z-index: -2;
   display: flex;
   min-width: 430px;
-  min-height: 450px;
   margin-top: 27px;
   background-image: url(../images/card-lot-01.jpg);
   background-size: 100% auto;
@@ -188,7 +189,7 @@ ul {
 
 .first_card_into {
   display: grid;
-  grid-template-rows: repeat(2, 52px 96px);
+  grid-template-rows: repeat(1, 52px 96px);
   margin: 50px 40px;
   row-gap: 202px;
 }
@@ -197,7 +198,6 @@ ul {
   z-index: -2;
   display: flex;
   min-width: 430px;
-  min-height: 450px;
   margin-top: 27px;
   background-image: url(../images/card-lot-02.jpg);
   background-size: 100% auto;
@@ -206,7 +206,7 @@ ul {
 
 .second_card_into {
   display: grid;
-  grid-template-rows: repeat(2, 80px 240px);
+  grid-template-rows: repeat(1, 80px 240px);
   margin: 50px 40px;
   row-gap: 30px;
 }
@@ -215,7 +215,6 @@ ul {
   z-index: -2;
   display: flex;
   min-width: 430px;
-  min-height: 450px;
   margin-top: 27px;
   background-image: url(../images/card-lot-03.jpg);
   background-size: 100% auto;
@@ -224,7 +223,7 @@ ul {
 
 .third_card_into {
   display: grid;
-  grid-template-rows: repeat(2, 74px 192px);
+  grid-template-rows: repeat(1, 74px 192px);
   margin: 50px 40px;
   row-gap: 84px;
 }
@@ -233,7 +232,6 @@ ul {
   z-index: -1;
   background-color: rgb(0, 0, 0, 0.6);
   min-width: 430px;
-  min-height: 450px;
 }
 
 .card_title {
@@ -267,7 +265,7 @@ ul {
 .about {
   display: flex;
   min-width: 1340px;
-  height: 487px;
+  max-height: 487px;
   margin: 181px 0 50px 50px;
 }
 
@@ -275,8 +273,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 430px;
-  height: 240px;
+  min-width: 430px;
   padding: 0 95px;
 }
 
@@ -297,8 +294,7 @@ ul {
 
 .abuot_column {
   display: flex;
-  width: 885px;
-  height: 388px;
+  min-width: 885px;
 }
 
 .about_into {
@@ -306,8 +302,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 100px 1px 50px 25px;
-  margin-bottom: 0;
+  padding: 100px 0 50px 25px;
   gap: 100px;
 }
 
@@ -328,7 +323,6 @@ ul {
 }
 
 .first_text {
-  height: 96px;
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -337,7 +331,6 @@ ul {
 }
 
 .second_text {
-  height: 119px;
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -345,9 +338,8 @@ ul {
   line-height: normal;
 }
 
-.footer {
+footer {
   min-width: 1340px;
-  min-height: 97px;
   margin: 180px 90px 50px 50px;
 }
 
@@ -389,10 +381,9 @@ ul {
 }
 
 .social_items {
-  width: 240px;
-  height: 48px;
   display: flex;
   justify-content: space-between;
+  min-width: 240px;
 }
 
 .yt_img {
