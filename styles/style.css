@@ -17,7 +17,7 @@ header {
   list-style-type: none;
 }
 
-.header_links-list-item_no-bullit {
+.header_links-list-item_no-underline {
   text-decoration: none;
 }
 
@@ -53,7 +53,6 @@ header {
 main {
   width: 100%;
   max-width: 1440px;
-  min-height: 100px;
   margin: 0 auto;
 }
 
@@ -171,7 +170,6 @@ main {
 .lots_card-list {
   display: grid;
   grid-template-columns: repeat(3, 430px);
-  grid-template-rows: repeat(1, 477px);
   column-gap: 25px;
   color: #fff;
 }
@@ -311,10 +309,9 @@ main {
 }
 
 .about_column___text {
-  display: grid;
-  grid-template-columns: repeat(1, 885px);
-  grid-template-rows: repeat(1, 96px 119px);
-  row-gap: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
   color: #000;
   font-weight: 400;
   font-size: 20px;
