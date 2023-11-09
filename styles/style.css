@@ -17,7 +17,7 @@ header {
   list-style-type: none;
 }
 
-.header_links-list-item_no-underline {
+.header_links-list-item_back-to-main {
   text-decoration: none;
 }
 
@@ -358,7 +358,7 @@ footer {
   list-style-type: none;
 }
 
-.footer_navigation-item_no-bullit {
+.footer_navigation-item_back-to-main {
   text-decoration: none;
 }
 
